@@ -4,9 +4,8 @@ body{
     margin-left: 10%;
 }
 #main{
-    margin-top:12.3%;
     height: auto;
-    width: 80.8%;
+    width: 80%;
     position: absolute;
     font-family: sans-serif;
     color: floralwhite;
@@ -17,31 +16,30 @@ body{
     margin-bottom: 2%;
 }
 .logo{
-    position: absolute;
-    margin-left:10%;
-    margin-top: 3%;
+    margin-right: 30px;
     border-radius: 5%; 
 }
 nav{
     margin-top: 2%;
-    height: auto;
-    width: 80.8%;
-    position: fixed;
+    height: 200px;
+    width: 100%;
+    position: relative;
     background-color: deepskyblue;
     border: 1px solid black;
 }
 nav ul{
-    margin-left: 21%;
+    width: auto;
+    margin-left: 10%;
     text-align: center;
+    position: fixed;
 }
 nav ul li{
+    position:relative;
     height: auto;
     float: left;
     display: inline-block;
     font-family: sans-serif;
-    margin-bottom: 10%;
-    margin-left: 1%;
-
+    margin-bottom: 19%;
 }
 nav ul li a{
     margin-bottom: 10%;
@@ -117,4 +115,11 @@ fieldset{
 #index{
     display: inline-block;
     margin-left: 41%;
+}
+table{
+    width: auto;
+    height: auto;
+}
+th, td{
+    border-bottom: 1px solid #ddd;
 }
